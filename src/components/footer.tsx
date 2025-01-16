@@ -3,8 +3,8 @@ export function Footer() {
     <>
       <a href={`${Homepage}/LICENCE`} target="_blank">MIT LICENCE</a>
       <span>
-        <span><a href="https://icp.gov.moe/?keyword=2025233" target="_blank">萌ICP备2025233号</a></span>
         <span>NewsNow © 2024 By </span>
+        <a href={Author.url} target="_blank">
           {Author.name}
         </a>
       </span>
